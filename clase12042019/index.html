@@ -9,111 +9,30 @@
   
   
     <script>
-        var radio=30;
-        var pi=3.1416;
-        var resultado;
         
-        resultado = pi * (radio ** 2);
         
-        console.log('El área del circulo es', resultado);
+        var num1 = 50;
+        var num2 = 4;
+        var resultado1;
+        var residuo;
         
+        resultado1 = num1 * num2;
+        residuo = resultado1 % 2;
         
+        if ((residuo === 0) && (resultado1 < 30)){
+            
+            console.log('El número es par y menor que 30', resultado1);
         
-        var koder_one=154;
-        var koder_two=160;
-        var koder_three=172;
-        var resultado_prom;
         
-        resultado_prom=(koder_one+koder_two+koder_three)/3;
-        
-        console.log('El promedio de estatura es', resultado_prom);
-        
-        
-        
-        
-        
-        var numero = 20;
-        var result;
-        
-        result = numero <= 10;
-        
-        console.log('el valor es', result);
-        
-        
-        
-        
-        
-        var result3;
-
-        result3 = numero > 0;
-        
-        console.log('Es positivo', result3);
-        
-        
-        
-        
-        
-        var numero2 = 5;
-        var resultado2;
-        
-        resultado2 = numero2 > 10 && numero2 < 130;
-        
-        console.log('El resultado es: ', resultado2);
-        
-        
-        var numero3 = 6;
-        var numero4 = 9;
-        var resultado3;
-        
-        resultado3 = ((numero3%3) === 0) && ((numero4%3) === 0);
-        
-        console.log('El resultado es', resultado3);
-        
-        
-        var g1Alum1 = 8;
-        var g1Alum2 = 4;
-        var g1Alum3 = 9;
-        var resG1;
-        
-        
-        var g2Alum1 = 5;
-        var g2Alum2 = 8;
-        var g2Alum3 = 7;
-        var resG2;
-        var prom_final;
-        
-        
-        resG1 = (g1Alum1 + g1Alum2 + g1Alum3)/3;
-        resG2 = (g2Alum1 + g2Alum2 + g2Alum3)/3;
-        
-        prom_final = resG1 > 6 && resG2 > 6
-        
-        console.log('El promedio es', prom_final);
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        }else if ((resultado1 > 30) && (resultado1 < 50)){
+            
+            console.log('El numero es', resultado1);
+        }
+        else{
+            console.error('ninguno');
+        }    
+            
+           
         
         
     </script>
@@ -121,4 +40,4 @@
 </body>
 
 
-</html>
+</html 
